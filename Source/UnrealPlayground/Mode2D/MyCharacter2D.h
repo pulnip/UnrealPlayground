@@ -3,12 +3,15 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Character.h"
-#include "MyCharacter.generated.h"
+#include "../MyCharacter.h"
+#include "MyCharacter2D.generated.h"
 
+/**
+ * 
+ */
 UCLASS()
-class UNREALPLAYGROUND_API AMyCharacter : public ACharacter
+class UNREALPLAYGROUND_API AMyCharacter2D : public AMyCharacter
 {
 	GENERATED_BODY()
-
+	
 };
