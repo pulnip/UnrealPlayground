@@ -10,8 +10,8 @@ public class UnrealPlayground : ModuleRules
 	
 		PublicDependencyModuleNames.AddRange(new string[] {
 			"Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput",
-			"Niagara"
-		});
+			"Niagara", "Paper2D"
+        });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 

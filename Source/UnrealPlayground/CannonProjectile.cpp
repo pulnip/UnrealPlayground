@@ -73,7 +73,7 @@ void ACannonProjectile::OnHit(UPrimitiveComponent* HitComp,
         // TODO: 여기서 PlayerState 체력 깎기 등
     }
     else if (OtherComp && OtherComp->IsSimulatingPhysics()) {
-        OtherComp->AddImpulseAtLocation(ProjectileMovement->Velocity * 80.f, Hit.ImpactPoint);
+        OtherComp->AddImpulseAtLocation(ProjectileMovement->Velocity * 30.f, Hit.ImpactPoint);
     }
 
     Explode(Hit.ImpactPoint);
